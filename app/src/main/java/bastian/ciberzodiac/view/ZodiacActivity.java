@@ -17,16 +17,10 @@ import bastian.ciberzodiac.data.ResultZodiac;
 public class ZodiacActivity extends AppCompatActivity {
 
 
-    private EditText nameEt;
-    private RadioGroup radioGroup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_zodiac);
-
     }
-
-
-
 }
