@@ -18,21 +18,13 @@ public class ResultZodiac extends AnswerZodiac{
     }
 
     public String result(){
-        if (nameSearcher().equals("no name")){
-            return "Escribe un nombre";
-        }else if (dateComparation().equals("no date")){
-            return "Selecciona una fecha de nacimiento";
-        }else if ((nameSearcher().equals("no name"))&&(dateComparation().equals("no date"))){
-            return "Escribe un nombre y Selecciona una fecha de nacimiento";
-        }
-        else
         { return nameSearcher() + " tu signo es " +dateComparation();}
     }
 
     private String nameSearcher(){
-        String name = getName().toString();
-        if (name.trim().length() > 0) {
-            return name;
+        String uName = getName().toString();
+        if (uName.trim().length() > 0) {
+            return uName;
         }else{
             return "no name";
     }}

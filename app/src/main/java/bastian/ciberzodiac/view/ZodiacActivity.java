@@ -16,8 +16,6 @@ import bastian.ciberzodiac.data.ResultZodiac;
 
 public class ZodiacActivity extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context="bastian.ciberzodiac.view.MainActivity">
+
+
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -28,20 +30,18 @@
 
     </android.support.design.widget.AppBarLayout>
 
-
     <ImageView
         android:src="@mipmap/zodiac"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <android.support.design.widget.FloatingActionButton
+        android:layout_centerInParent="true"
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@mipmap/ic_search_white_24dp"
-        app:layout_anchorGravity="center"
-        />
+        app:srcCompat="@mipmap/ic_search_white_24dp"/>
 
-</android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>
 
