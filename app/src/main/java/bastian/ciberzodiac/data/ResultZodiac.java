@@ -18,7 +18,7 @@ public class ResultZodiac extends AnswerZodiac{
     }
 
     public String result(){
-        { return nameSearcher() + " tu signo es " +dateComparation();}
+        { return nameSearcher() + " has nacido bajo la protección de la constelación de " +dateComparation();}
     }
 
     private String nameSearcher(){

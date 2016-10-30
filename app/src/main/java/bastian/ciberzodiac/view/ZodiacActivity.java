@@ -12,13 +12,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-
 import bastian.ciberzodiac.R;
 import bastian.ciberzodiac.data.ResultZodiac;
 
 import static android.R.attr.name;
 
 public class ZodiacActivity extends AppCompatActivity {
+
 
     private TextInputEditText nameEt;
     private RadioGroup radioGroup;
@@ -41,8 +41,8 @@ public class ZodiacActivity extends AppCompatActivity {
                 if (radioBtn != -1);
                 RadioButton radioButton = (RadioButton) radioGroup.findViewById(radioBtn);
                 date = radioButton.getText().toString();
-                ResultZodiac resultZodiac = new ResultZodiac(name,date,getBaseContext());
-                AlertDialog.Builder dialog = new AlertDialog.Builder(getBaseContext());
+                ResultZodiac resultZodiac = new ResultZodiac(name,date,ZodiacActivity.this);
+                AlertDialog.Builder dialog = new AlertDialog.Builder(ZodiacActivity.this);
                 dialog.setMessage(resultZodiac.result());
                 dialog.show();
             }
