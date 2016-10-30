@@ -19,7 +19,6 @@ import static android.R.attr.name;
 
 public class ZodiacActivity extends AppCompatActivity {
 
-
     private TextInputEditText nameEt;
     private RadioGroup radioGroup;
 

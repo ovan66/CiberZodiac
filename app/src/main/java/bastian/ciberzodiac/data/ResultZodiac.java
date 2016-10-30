@@ -18,7 +18,14 @@ public class ResultZodiac extends AnswerZodiac{
     }
 
     public String result(){
-        { return nameSearcher() + " has nacido bajo la protección de la constelación de " +dateComparation();}
+        if (nameSearcher().equals("no name")){
+            return "Escribe tu nombre";
+        }else if ("no date".equals(dateComparation())){
+            return "Escoge una fecha";
+        }else if ((nameSearcher().equals("no name"))&&(dateComparation().equals("no date"))){
+            return "Escribe tu nombre y Escoge una fecha";
+        }else{
+            return nameSearcher() + " has nacido bajo la protección de la constelación de " +dateComparation();}
     }
 
     private String nameSearcher(){
@@ -51,42 +58,42 @@ public class ResultZodiac extends AnswerZodiac{
                 matcher = i;
             }
         }
-        if (matcher == 1){
+        if (matcher == 0){
             return "Aries";}
 
-        else if (matcher == 2){
+        else if (matcher == 1){
             return "Tauro";}
 
-        else if (matcher == 3){
+        else if (matcher == 2){
             return "Géminis";}
 
-        else if (matcher == 4){
+        else if (matcher == 3){
             return "Cáncer";}
 
-        else if (matcher == 5){
+        else if (matcher == 4){
             return "Leo";}
 
-        else if (matcher == 6){
+        else if (matcher == 5){
             return "Virgo";}
 
-        else if (matcher == 7){
+        else if (matcher == 6){
             return "Libra";}
 
-        else if (matcher == 8){
+        else if (matcher == 7){
             return "Escorpio";}
 
-        else if (matcher == 9){
+        else if (matcher == 8){
             return "Sagitario";}
 
-        else if (matcher == 10){
+        else if (matcher == 9){
             return "Capricornio";}
 
-        else if (matcher == 11){
+        else if (matcher == 10){
             return "Acuario";}
 
-        else if (matcher == 12){
+        else if (matcher == 11){
             return "Piscis";}
-        else {
+        else{
             return "no date";
         }
     }

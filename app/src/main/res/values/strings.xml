@@ -3,20 +3,17 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_zodiac">ZodiacActivity</string>
 
-    <string name="Aries">20/Enero - 18/Febreo</string>
-    <string name="Tauro">19/Febrero - 20/Marzo</string>
-    <string name="Géminis">21/Marzo - 20/Abril</string>
-    <string name="Cáncer">21/Abril - 20/Mayo</string>
-    <string name="Leo">21/Mayo - 20/Junio</string>
-    <string name="Virgo">21/Junio - 20/Julio</string>
-    <string name="Libra">21/Julio - 21/Agosto</string>
-    <string name="Escorpio">22/Agosto - 22/Septiembre</string>
-    <string name="Sagitario">23/Septiembre - 22/Octubre</string>
-    <string name="Capricornio">23/Octubre - 22/Noviembre</string>
-    <string name="Acuario">23/Noviembre - 20/Diciembre</string>
-    <string name="Piscis">21/Diciembre - 19/Enero</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Aries">21/Marzo - 20/Abril</string>
+    <string name="Tauro">21/Abril - 21/Mayo</string>
+    <string name="Géminis">22/Mayo - 21/Junio</string>
+    <string name="Cáncer">22/Junio - 22/Julio</string>
+    <string name="Leo">23/Julio - 23/Agosto</string>
+    <string name="Virgo">24/Agosto - 23/Septiembre</string>
+    <string name="Libra">24/Septiembre - 23/Octubre</string>
+    <string name="Escorpio">24/Octubre - 22/Noviembre</string>
+    <string name="Sagitario">23/Noviembre - 21/Diciembre</string>
+    <string name="Capricornio">22/Diciembre - 20/Enero</string>
+    <string name="Acuario">21/Enero - 18/Febrero</string>
+    <string name="Piscis">19/Febrero - 20/Marzo</string>
 
 </resources>

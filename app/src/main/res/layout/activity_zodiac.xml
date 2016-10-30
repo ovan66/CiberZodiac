@@ -40,11 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <RadioButton
-            android:text="@string/Piscis"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/radioButton" />
+
 
         <RadioButton
             android:text="@string/Aries"
@@ -90,14 +86,19 @@
             android:text="@string/Acuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+        <RadioButton
+            android:text="@string/Piscis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton" />
 
-        <fragment
-            android:id="@+id/resultBtn"
-            android:name="bastian.ciberzodiac.view.resultBtn"
+        <Button
+            android:layout_marginBottom="50dp"
+            android:id="@+id/ResultBtn"
+            android:text="Resultado"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
-            tools:layout="@layout/fragment_result_btn" />
+            android:layout_weight="1"/>
 
     </RadioGroup>
     </ScrollView>
